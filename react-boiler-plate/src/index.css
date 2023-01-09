@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  display: block;
+  text-decoration: none;
+  padding: 10px 16px;
+  margin: 20px 0;
+  background: rgb(204, 204, 204);
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+/* hole blog */
+.blog {
+  margin: 20px 0;
+}
+.blog-body {
+  padding: 20px 0;
+  line-height: 1.6;
+}
+.blog-author {
+  font-size: 14px;
+}
+.create h1 {
+  text-align: center;
+  margin-bottom: 16px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: fit-content;
+  margin: 20px auto;
+  width: 50%;
+  gap: 20px;
+}
+.form input,
+.form textarea,
+.form select {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  padding: 6px;
+  background-color: rgb(230, 230, 230);
+  border: 1px solid rgb(189, 189, 189);
+  outline: none;
+}
+.form textarea {
+  min-height: 100px;
+}
+.form button {
+  padding: 8px 4px;
+  cursor: pointer;
+  border: none;
+  background-color: #f1356d;
+  color: #fff;
+}
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.list button {
+  background-color: #f1356d;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  cursor: pointer;
+}
